@@ -1,0 +1,50 @@
+# Go binary files
+/bin/
+/obj/
+
+# Dependency directories
+/vendor/
+
+# Build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go workspace
+/go.work
+
+# IDE specific files
+.idea/
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Linux system files
+*.swp
+*~
+
+# Go test binary, can be created by 'go test'
+*.test
+
+# Coverage output
+*.coverprofile
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Gopath
+Godeps/
+
+# Go modules cache
+/go.sum
+/go.mod
+
+# Exclude editor backups
+*~.swp
