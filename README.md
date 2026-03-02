@@ -13,11 +13,29 @@ Journey to mastering Go, through focused study and hands-on coding exercises fro
 
 ```bash
 mkdir ch1
-ch ch1
+cd ch1
 go mod init hello_world
 go build
 go build -o hello
 go fmt ./...
 go vet ./...
 make
+```
+
+## Types
+
+```bash
+mkdir -p ch2/complex
+cd ch2/complex
+go mod init complex_numbers
+go complex.go
+go run complex.go
+```
+
+```bash
+mkdir -p ch2/type_conversions
+cd ch2/type_conversions
+go mod init type_conversions
+go conversions.go
+go run conversions.go
 ```
