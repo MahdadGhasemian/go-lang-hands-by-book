@@ -28,7 +28,8 @@ make
 mkdir -p ch2/complex
 cd ch2/complex
 go mod init complex_numbers
-go complex.go
+touch complex.go
+# write codes
 go run complex.go
 ```
 
@@ -36,6 +37,18 @@ go run complex.go
 mkdir -p ch2/type_conversions
 cd ch2/type_conversions
 go mod init type_conversions
-go conversions.go
+touch conversions.go
+# write codes
 go run conversions.go
+```
+
+## Len Cap
+
+```bash
+mkdir -p ch3/len_cap
+cd ch3/len_cap
+go mod init len_cap
+touch len_cap
+# write codes
+go run len_cap
 ```
